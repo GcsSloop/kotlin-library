@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio 2.3.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-runtime/1.0.0/kotlin-runtime-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8739b3cd3bf98584cf2d1cabf59b55dbd5f7349d">
+        <dex dex="/Users/GcsSloop/WorkSpace/Android/KotlinLibrary/sample/build/intermediates/pre-dexed/debug/kotlin-runtime-1.0.0_e99de6aba07d1ba1ddac725aef5625fb87f000cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GcsSloop/WorkSpace/Android/KotlinLibrary/apputils/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ea61ead8816c8d099bbf275989b83b850a115d3">
+        <dex dex="/Users/GcsSloop/WorkSpace/Android/KotlinLibrary/sample/build/intermediates/pre-dexed/release/classes_7bf41f738cf99ac65f4209da5d1302471b4bf01e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/GcsSloop/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.8.2/8974e9997afe8701e4207a315d4aa9bf7f05a8f4/anko-common-0.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8974e9997afe8701e4207a315d4aa9bf7f05a8f4">
+        <dex dex="/Users/GcsSloop/WorkSpace/Android/KotlinLibrary/sample/build/intermediates/pre-dexed/debug/anko-common-0.8.2_4d49bcc5d73ae0420390650adee7f67a0189f0e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio 2.3.app/Contents/gradle/m2repository/org/jetbrains/kotlin/kotlin-stdlib/1.0.0/kotlin-stdlib-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2db5ac6eb2746708e77e4c439625f9331c25e766">
+        <dex dex="/Users/GcsSloop/WorkSpace/Android/KotlinLibrary/sample/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.0.0_09d15285d2fdcf2dfa5cdf2c48b3c1417565666c.jar" />
+    </item>
+
+</items>
