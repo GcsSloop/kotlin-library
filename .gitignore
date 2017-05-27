@@ -41,3 +41,9 @@ captures/
 
 # idea
 .idea/
+
+build/intermediates/dex-cache/cache.xml
+
+*.iml
+
+*.iml

@@ -27,6 +27,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
+import android.os.Bundle
 import android.util.Log
 import org.jetbrains.annotations.NotNull
 import java.io.Serializable
@@ -103,5 +104,17 @@ fun Context.startActivity(@NotNull clazz: Class<Activity>, @NotNull datas: Map<S
     for ((key, value) in datas) {
         intent.putExtra(key, value)
     }
+    this.startActivity(intent)
+}
+
+/**
+ * 打开新的 Activity
+ * @param clazz Activity 的 class
+ * @param key  key
+ * @param data Bundle 数据
+ */
+fun Context.startActivity(@NotNull clazz: Class<Activity>, @NotNull key: String, @NotNull data: Bundle) {
+    val intent: Intent = Intent(this, clazz)
+    intent.putExtra(key, data)
     this.startActivity(intent)
 }
