@@ -100,7 +100,7 @@ fun Context.isTablet(): Boolean {
  * 打开新的 Activity
  * @param clazz Activity 的 class
  */
-fun Context.startActivity(@NotNull clazz: Class<Activity>) {
+fun Context.openActivity(@NotNull clazz: Class<Activity>) {
     val intent: Intent = Intent(this, clazz)
     this.startActivity(intent)
 }
@@ -110,7 +110,7 @@ fun Context.startActivity(@NotNull clazz: Class<Activity>) {
  * @param clazz Activity 的 class
  * @param datas 数据
  */
-fun Context.startActivity(@NotNull clazz: Class<Activity>, @NotNull datas: Map<String, Serializable>) {
+fun Context.openActivity(@NotNull clazz: Class<Activity>, @NotNull datas: Map<String, Serializable>) {
     val intent: Intent = Intent(this, clazz)
     for ((key, value) in datas) {
         intent.putExtra(key, value)
@@ -124,7 +124,7 @@ fun Context.startActivity(@NotNull clazz: Class<Activity>, @NotNull datas: Map<S
  * @param key  key
  * @param data Bundle 数据
  */
-fun Context.startActivity(@NotNull clazz: Class<Activity>, @NotNull key: String, @NotNull data: Bundle) {
+fun Context.openActivity(@NotNull clazz: Class<Activity>, @NotNull key: String, @NotNull data: Bundle) {
     val intent: Intent = Intent(this, clazz)
     intent.putExtra(key, data)
     this.startActivity(intent)

@@ -19,8 +19,7 @@
   ~ GitHub: https://github.com/GcsSloop
   ~ WeiBo: http://weibo.com/GcsSloop
   ~ WebSite: http://www.gcssloop.com
-  -->
-
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.gcssloop.kotlinlibrary">
 
@@ -37,6 +36,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:launchMode="singleInstance"
+            android:name=".SeccondActivity">
         </activity>
     </application>
 
