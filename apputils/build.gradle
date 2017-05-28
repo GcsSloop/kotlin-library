@@ -72,4 +72,4 @@ ext {
     VERSION = "0.0.5"
 }
 
-apply from: rootProject.getRootDir().getAbsolutePath() + "/pack-upload.gradle"
+// apply from: rootProject.getRootDir().getAbsolutePath() + "/pack-upload.gradle"

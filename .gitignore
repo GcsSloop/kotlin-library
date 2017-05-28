@@ -53,3 +53,6 @@ build/intermediates/dex-cache/cache.xml
 apputils/apputils.iml
 
 sample/sample.iml
+/local.properties
+
+pack-upload.gradle
