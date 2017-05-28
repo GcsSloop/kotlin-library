@@ -27,10 +27,12 @@ import android.content.Context
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
+import android.content.res.Configuration
 import android.os.Bundle
 import android.util.Log
 import org.jetbrains.annotations.NotNull
 import java.io.Serializable
+
 
 val TAG = "GcsAppUtils"
 /**
@@ -83,6 +85,15 @@ fun Context.isInDebug(pkgName: String = this.packageName): Boolean {
         Log.e(TAG, "Exception", e)
     }
     return false
+}
+
+/**
+ * 是否是平板设备
+ * @return true 是， false 不是
+ */
+fun Context.isTablet(): Boolean {
+    return this.resources.configuration.screenLayout and Configuration
+            .SCREENLAYOUT_SIZE_MASK >= Configuration.SCREENLAYOUT_SIZE_LARGE
 }
 
 /**

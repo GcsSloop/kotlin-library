@@ -47,3 +47,7 @@ build/intermediates/dex-cache/cache.xml
 *.iml
 
 *.iml
+
+*.iml
+
+apputils/apputils.iml
