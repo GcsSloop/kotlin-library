@@ -36,6 +36,7 @@ dependencies {
 
     if (dev){
         compile project(':apputils')
+        compile project(':fileutils')
     } else {
         compile "com.gcssloop.kotlin:apputils:0.0.1"
     }

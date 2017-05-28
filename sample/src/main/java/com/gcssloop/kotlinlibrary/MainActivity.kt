@@ -7,6 +7,7 @@ import com.gcssloop.apputils.getVersionCode
 import com.gcssloop.apputils.getVersionName
 import com.gcssloop.apputils.isInDebug
 import com.gcssloop.apputils.isInstall
+import com.gcssloop.fileutils.getFileDir
 
 class MainActivity : AppCompatActivity() {
     val TAG = "MainActivity"
@@ -24,5 +25,16 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "isInstall:" + isInstall(pkgName))
         Log.i(TAG, "isDebug:" + isInDebug())
         Log.i(TAG, "isDebug:" + isInDebug(pkgName))
+
+
+        Log.i(TAG, "fileDir:" + getFileDir())
+        Log.i(TAG, "fileDir:" + getFileDir("/"))
+        Log.i(TAG, "fileDir:" + getFileDir("/hello"))
+        Log.i(TAG, "fileDir:" + getFileDir("hello/"))
+        Log.i(TAG, "fileDir:" + getFileDir("/hello/"))
+        Log.i(TAG, "fileDir:" + getFileDir("hello/test"))
+        Log.i(TAG, "fileDir:" + getFileDir("/hello/test"))
+        Log.i(TAG, "fileDir:" + getFileDir("/hello/test/"))
+
     }
 }
