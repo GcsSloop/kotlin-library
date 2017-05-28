@@ -79,7 +79,5 @@ class MainActivity : AppCompatActivity() {
 
         mkdirs("/sdcard/sloop/test")
 
-
-
     }
 }
