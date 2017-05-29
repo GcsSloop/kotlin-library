@@ -69,7 +69,7 @@ buildscript {
 ext {
     GROUP_ID = "com.gcssloop.kotlin"
     ARTIFACT_ID = "apputils"
-    VERSION = "0.0.2"
+    VERSION = "0.0.6"
 }
 
-apply from: rootProject.getRootDir().getAbsolutePath() + "/pack-upload.gradle"
+//apply from: rootProject.getRootDir().getAbsolutePath() + "/pack-upload.gradle"

@@ -6,7 +6,7 @@
 
 | 名称        | 最新版本  | 简介           |
 | --------- | ----- | ------------ |
-| AppUtils  | 0.0.2 | 与应用相关的一些基础工具 |
+| AppUtils  | 0.0.6 | 与应用相关的一些基础工具 |
 | FileUtils | 0.0.1 | 与文件相关的一些基础工具 |
 
 
@@ -65,7 +65,7 @@ openActivity(SeccondActivity().javaClass, "bundle", data2)
 导入方式：
 
 ```groovy
-compile 'com.gcssloop.kotlin:apputils:0.0.2'
+compile 'com.gcssloop.kotlin:apputils:0.0.6'
 ```
 
 
@@ -136,7 +136,7 @@ allprojects {
     repositories {
         jcenter()
         // 就是下面这一行
-        maven { url "http://library.gcssloop.com/repository/gcs-repository/" }
+        maven { url "http://lib.gcssloop.com/repository/gcssloop-central/" }
     }
 }
 ```
