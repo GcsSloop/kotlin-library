@@ -136,7 +136,7 @@ allprojects {
     repositories {
         jcenter()
         // 就是下面这一行
-        maven { url "http://library.gcssloop.com:8081/repository/gcs-repository/" }
+        maven { url "http://library.gcssloop.com/repository/gcs-repository/" }
     }
 }
 ```
